@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gusto</title>
+    <!-- link google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">
+    <!-- link font aswome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- link tailwind -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- link css -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div
+        class="w-full md:h-screen h-96 bg-[url('https://hannaphoto.com/wp-content/uploads/2020/05/sam_hanna_new_orleans_food_photographer-1.jpg')] bg-no-repeat bg-cover">
+
+        <nav class="bg-red-950 text-white md:p-8 p-4">
+            <ul class="flex justify-evenly items-center">
+                <li class="text-lg hover:text-yellow-200 cursor-pointer">Specials</li>
+                <li class="text-lg hover:text-yellow-200 cursor-pointer">About</li>
+                <li class="text-lg hover:text-yellow-200 cursor-pointer">Menu</li>
+                <li class="text-lg hover:text-yellow-200 cursor-pointer">Chef</li>
+                <li class="text-lg hover:text-yellow-200 cursor-pointer">Contact</li>
+            </ul>
+        </nav>
+        <div class="flex justify-center items-center w-full text-white flex-col md:pt-80 pt-20">
+            <h1 class="md:text-9xl text-6xl">Gusto</h1>
+            <p class="mt-5 text-center">where any meal is a masterpiece and every visit feels like home</p>
+        </div>
+    </div>
+
+    <!-- our specials -->
+
+    <div class="flex justify-center items-center flex-col">
+        <h1 class="text-3xl mt-20">OUR SPECIALS</h1>
+        <div class="w-40 my-6 h-1 bg-red-500"></div>
+
+        <div class="md:grid grid-cols-3 w-full my-10 md:px-40 px-5">
+            <div class="md:p-8 p-5 text-center">
+                <h1 class="text-3xl">lorem ipsum</h1>
+                <img class="mt-4 w-full max-h-56"
+                    src="https://images.immediate.co.uk/production/volatile/sites/30/2022/08/Corndogs-7832ef6.jpg?quality=90&resize=556,505"
+                    alt="no image">
+                <p class="mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas aut nemo suscipit ducimu
+                    deleniti magni.</p>
+            </div>
+            <div class="md:p-8 p-5 text-center">
+                <h1 class="text-3xl">lorem ipsum</h1>
+                <img class="mt-4 w-full max-h-56"
+                    src="https://img.freepik.com/free-photo/top-view-table-full-food_23-2149209253.jpg?semt=ais_hybrid&w=740"
+                    alt="no image">
+                <p class="mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas aut nemo suscipit ducimu
+                    deleniti magni.</p>
+            </div>
+            <div class="md:p-8 p-5 text-center">
+                <h1 class="text-3xl">lorem ipsum</h1>
+                <img class="mt-4 w-full max-h-56"
+                    src="https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-1273516682.jpg?c=original"
+                    alt="no image">
+                <p class="mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas aut nemo suscipit ducimu
+                    deleniti magni.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- our story -->
+    <div class="my-20 bg-slate-200">
+        <div class="md:grid grid-cols-2">
+            <div>
+                <img src="https://popmenucloud.com/izyapxve/4d84569e-1b1e-4f21-a6f4-0dd16174b4dc.jpg" alt="no image"
+                    class="w-full h-full">
+            </div>
+            <div class="flex justify-center items-center flex-col md:px-20 px-8">
+                <h1 class="text-3xl font-semibold mt-10 md:mt-10">OUR STORY</h1>
+                <div class="w-40 my-6 h-1 bg-red-500"></div>
+                <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+                    exercitationem unde reiciendis, deserunt nesciunt iure? Dignissimos aperiam, possimus dicta fuga
+                    beatae voluptas veritatis dolores, quos eius deleniti, ipsum necessitatibus excepturi.</p>
+                <p class="mt-10 text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
+                    sint? Repellat doloribus necessitatibus perferendis! Veniam impedit, vero eius molestiae cum
+                    reprehenderit blanditiis voluptas repellendus cupiditate temporibus libero aspernatur dolore minus!
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Menu -->
+    <div class="my-10">
+        <div class="flex justify-center items-center flex-col">
+            <h1 class="text-3xl">MENU</h1>
+            <div class="w-40 my-6 h-1 bg-red-500"></div>
+        </div>
+    </div>
+
+    <div class="md:grid grid-cols-2 md:px-40  md:mt-20 mt-5">
+        <div class="md:px-20 px-8">
+            <div class="flex justify-center items-center flex-col">
+                <h1 class="text-3xl">BREALFAST & STARTS</h1>
+                <div class="w-40 my-6 h-1 bg-red-500"></div>
+            </div>
+            <div class="mt-10">
+                <div class="flex justify-between">
+                    <h1 class="text-2xl">Tortellini slewers</h1>
+                    <h1 class="text-2xl">$9</h1>
+                </div>
+                <p class="mt-4">Lorem ipsum dolor sit amet consectetur, adipisic</p>
+            </div>
+            <div class="mt-10">
+                <div class="flex justify-between">
+                    <h1 class="text-2xl">Tortellini slewers</h1>
+                    <h1 class="text-2xl">$9</h1>
+                </div>
+                <p class="mt-4">Lorem ipsum dolor sit amet consectetur, adipisic</p>
+            </div>
+            <div class="mt-10">
+                <div class="flex justify-between">
+                    <h1 class="text-2xl">Tortellini slewers</h1>
+                    <h1 class="text-2xl">$9</h1>
+                </div>
+                <p class="mt-4">Lorem ipsum dolor sit amet consectetur, adipisic</p>
+            </div>
+        </div>
+        <div class="md:px-20 px-8">
+            <div class="flex justify-center items-center flex-col">
+                <h1 class="text-3xl md:mt-0 mt-10">MAIN COURSE</h1>
+                <div class="w-40 my-6 h-1 bg-red-500"></div>
+            </div>
+            <div class="mt-10">
+                <div class="flex justify-between">
+                    <h1 class="text-2xl">Tortellini slewers</h1>
+                    <h1 class="text-2xl">$9</h1>
+                </div>
+                <p class="mt-4">Lorem ipsum dolor sit amet consectetur, adipisic</p>
+            </div>
+            <div class="mt-10">
+                <div class="flex justify-between">
+                    <h1 class="text-2xl">Tortellini slewers</h1>
+                    <h1 class="text-2xl">$9</h1>
+                </div>
+                <p class="mt-4">Lorem ipsum dolor sit amet consectetur, adipisic</p>
+            </div>
+            <div class="mt-10">
+                <div class="flex justify-between">
+                    <h1 class="text-2xl">Tortellini slewers</h1>
+                    <h1 class="text-2xl">$9</h1>
+                </div>
+                <p class="mb-6">Lorem ipsum dolor sit amet consectetur, adipisic</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact -->
+    <div class="grid grid-cols-2 md:grid-cols-4">
+        <div>
+            <img class="w-full h-full"
+                src="https://eatbook.sg/wp-content/uploads/2018/09/Beautiful-Cafes-Chin-Sin-Huan-Food.jpg"
+                alt="no image">
+        </div>
+        <div>
+            <img class="w-full h-full" src="https://i.pinimg.com/736x/f9/de/32/f9de32c7d01acad0b0c9777c37e88c2f.jpg"
+                alt=" no image">
+        </div>
+        <div>
+            <img class="w-full h-full"
+                src="https://wallpapers.com/images/hd/aesthetic-food-pictures-902-x-900-ynbga7ba8fi11l70.jpg"
+                alt="no image">
+        </div>
+        <div>
+            <img class="w-full h-full"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNfLCTCG8rUK6zXeaKAiLYdFWbgOv3Oqvjjw&s"
+                alt="no image">
+        </div>
+    </div>
+
+    <!-- updated contacted -->
+
+    <div class="bg-slate-700">
+        <div class="grid md:grid-cols-3 text-white">
+            <div class="md:px-20 flex justify-center items-center flex-col mt-10">
+                <h1 class="text-2xl font-semibold">RESERVATIONS</h1>
+                <div class="w-40 my-6 h-1 bg-red-500"></div>
+                <p>Call us now to book your table!</p>
+                <p>8763637367</p>
+            </div>
+            <div class="md:px-20 flex justify-center items-center flex-col mt-10">
+                <h1 class="text-2xl font-semibold">ADDRESS</h1>
+                <div class="w-40 my-6 h-1 bg-red-500"></div>
+                <p>4321 Sunset boulevard</p>
+                <p>Los Angeles, CA 90028</p>
+            </div>
+            <div class="md:px-20 flex justify-center items-center flex-col mt-10">
+                <h1 class="text-2xl font-semibold">OPENING HOURS</h1>
+                <div class="w-40 my-6 h-1 bg-red-500"></div>
+                <p>Mon-Thurs:9:00 AM - 11:00 PM</p>
+                <p>Fri-Sun: 11:00 AM - 2:00 PM</p>
+            </div>
+        </div>
+
+
+        <!-- Contact Section -->
+        <div class="bg-slate-700 text-white py-10 px-4">
+            <div class="flex flex-col items-center text-center">
+                <h1 class="text-2xl mt-6">Send us a message</h1>
+                <div class="w-40 my-4 h-1 bg-red-500"></div>
+            </div>
+            <form class="max-w-2xl mx-auto flex flex-col items-center space-y-4">
+                <div class="w-full flex flex-col md:flex-row gap-4">
+                    <input type="text" placeholder="Name" class="w-full md:w-1/2 p-2 bg-white text-black border border-gray-300 rounded mt-1">
+                    <input type="text" placeholder="Email" class="w-full md:w-1/2 p-2 bg-white text-black border border-gray-300 rounded mt-1">
+                </div>
+                <textarea placeholder="Message" class="w-full h-32 p-2 bg-white text-black border border-gray-300 rounded resize-none"></textarea>
+
+                <button class="w-40 p-2 text-white border border-white hover:bg-white hover:text-black transition">Send Message</button>
+            </form>
+        </div>
+        <footer class="bg-slate-950 text-white py-4 px-6">
+            <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+                <p class="text-center md:text-left-sm w-full md:w-auto mx-auto">
+                    ©Copyright. All rights reserved | Designed by <strong>Aksa</strong>
+                </p>
+                <div class="flex gap-4 text-xl justify-center w-full md:w-auto">
+                    <i class="fa-brands fa-facebook hover:text-yellow-400 cursor-pointer"></i>
+                    <i class="fa-brands fa-x-twitter hover:text-yellow-400 cursor-pointer"></i>
+                    <i class="fa-brands fa-instagram hover:text-yellow-400 cursor-pointer"></i>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
